@@ -10,10 +10,12 @@ const config: Config = {
     extend: {
      colors: {
       "coffee": "#2F1F14",
-      "light-color": "#DBBCA1",
+      "about-coffee": "#DBBCA1",
       "menu-bg": "#DBBCA1",
       "sponser-bg": "#655546",
-      "footer-bg": "#291600"
+      "footer-bg": "#291600",
+      "hero-text": "#FFFFFFCC", 
+      "review-text": "#0A424F"
      }
     },
   },
