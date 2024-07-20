@@ -15,7 +15,8 @@ const config: Config = {
       "sponser-bg": "#655546",
       "footer-bg": "#291600",
       "hero-text": "#FFFFFFCC", 
-      "review-text": "#0A424F"
+      "review-text": "#0A424F",
+      "nav-bg": "#6F4436"
      }
     },
   },

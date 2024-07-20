@@ -2,6 +2,9 @@ import Image from "next/image";
 import { inter } from "@/lib/fonts";
 import { cn } from "@/lib/utlils";
 
+const date = new Date()
+let year = date.getFullYear(); 
+
 export const Footer = () => {
     return (
         <footer className="">
@@ -24,8 +27,8 @@ export const Footer = () => {
 
             </div>
             <div>
-                <h1>Sitemap</h1>
-                <h3>All our pages</h3>
+                <h1 className={cn(inter.className, "text-4xl ")}>Sitemap</h1>
+                <h3 className="text-2xl">All our pages</h3>
                 <ol className="mt-5">
                     <li>Home</li>
                     <li>About Us</li>
@@ -65,7 +68,13 @@ export const Footer = () => {
             <div>
 
 </div>
+
+
             </div>
+
+            <div className="flex items-center justify-center py-3 bg-about-coffee">
+    <p className="">Copyright {year}. All rights Reserved Company Name</p>
+</div>
 
             
         </footer>
